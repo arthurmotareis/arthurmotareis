@@ -1,0 +1,126 @@
+/* Estilo do projeto */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #b9d9d9; /*cor do fundo*/
+	color:#3d3d3d; /* cor da fonte */
+	font-family: helvetica; /* estilo da fonte*/
+}
+
+header{
+	background-color: #ffffff;
+	padding: 20px; /* espaçamento interno do elemento*/
+}
+
+main{
+	max-width: 1200px; /* largura máxima do projeto */
+	margin:0px auto;
+}
+
+#banner{
+	background-color: #ffffff; /* cor de fundo*/
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.img_banner{
+	width: 400px;
+	margin: 0 auto;
+	display: block; /* nesse caso o display é necessário para o margin funcionar */
+}
+
+#servicos{
+	background-color: #ffffff; /* cor de fundo*/
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#servicos ul{
+	padding-left: 20px;
+}
+
+#servicos ul li{
+	padding-top: 5px;
+}
+
+#funcionamento{
+	background-color: #ffffff; /* cor de fundo*/
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+footer{
+	background-color: #ffffff;
+	padding: 10px;
+	text-align: center; /* alinha o texto ao centro */
+}
+
+/* Estilo para menu */
+
+/* Estilo para formulário */
+nav{
+	background-color: #f3f4f6;
+	padding: 20px;
+}
+
+nav ul li{
+	display: inline;
+	padding: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #1f2937;
+}
+
+nav ul li a:hover{
+	color: #22c55e;
+}
+
+#contato{
+	background-color: #ffffff;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+fieldset{
+	border: 2px solid #b9d9d9;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+input{
+	margin: 10px 0px;
+}
+
+.text{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.check{
+	margin-right: 10px;
+}
+
+.button{
+	background-color: #3d3d3d;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+}
+
+.button:hover{
+	background-color: #66a6a6;
+		
+}

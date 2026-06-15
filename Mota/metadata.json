@@ -1,0 +1,6 @@
+{
+  "name": "Serene Productivity System",
+  "description": "Um gerenciador de tarefas minimalista, elegante e tátil focado em clareza mental e produtividade serena.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
